@@ -53,10 +53,11 @@ a:visited {
     background: #FFCC00;
     text-decoration: none;
 }
+
 table {
-    border-collapse: collapse;
+    font-weight: bolder;
 }
-  
-th, td {
-    border: 1px solid black;
+
+row {
+    font-family: cursive;
 }
