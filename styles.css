@@ -53,8 +53,10 @@ a:visited {
     background: #FFCC00;
     text-decoration: none;
 }
-table,th, td {
-    border: 1 px;
-    color: solid black;
+table {
+    border-collapse: collapse;
 }
+  
+th, td {
+    border: 1px solid black;
 }
