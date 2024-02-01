@@ -57,7 +57,7 @@ a:visited {
 table {
     display: table;
     width: 100%;
-    border-collapse: collapse;
+    border-collapse: seperate;
 }
 
 table.row {
