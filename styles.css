@@ -32,3 +32,14 @@ p {
     font-family: Arial, sans-serif;
     font-size: 10pt;
 }
+
+a:active {
+    background: #FFCC00;
+    text-decoration: none;
+}
+
+a:hover {
+    background: #FFCC00;
+    font-weight: bold;
+    color: red;
+}
