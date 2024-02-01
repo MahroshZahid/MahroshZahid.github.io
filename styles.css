@@ -54,10 +54,10 @@ a:visited {
     text-decoration: none;
 }
 
-table {
-    font-weight: bolder;
+.table {
+    display: table
 }
 
-row {
-    font-family: cursive;
+.row {
+     display: table-row
 }
