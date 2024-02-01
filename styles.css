@@ -43,10 +43,12 @@ a:hover {
     font-weight: bold;
     color: red;
 }
+
 a:link {
     background: #FFCC00;
     text-decoration: none;
 }
+
 a:visited {
     background: #FFCC00;
     text-decoration: none;
