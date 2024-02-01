@@ -1,6 +1,6 @@
 body {
     background-color: #F9F0FE;
-    color: #ad77c3;
+    color: #d8bae4;
     font-size: 12pt;
     margin-top: 30pt;
     margin-bottom: 30pt;
@@ -9,7 +9,15 @@ body {
 
 }
 
-h1 {color: magenta;
-    font: Serif;
-    font-size: 50pt;
+h1 {color: rgb(185, 48, 185);
+    font-family: 'Serif';
+    font-size: 30pt;
+}
+h2 {color : rgb(144, 79, 144);
+    font-family: 'sans-serif';
+    font-size: 20pt 
+}
+h3 {color: rgb(217, 174, 217);
+    font-family: 'Gill Sans';
+    font-size: 10pt
 }
