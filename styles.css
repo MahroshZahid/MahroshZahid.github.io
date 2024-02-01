@@ -16,9 +16,11 @@ h1 {color: rgb(185, 48, 185);
 }
 h2 {color : rgb(144, 79, 144);
     font-family: 'sans-serif';
-    font-size: 20pt 
+    font-size: 20pt;
+    font-style: italic
 }
 h3 {color: rgb(217, 174, 217);
     font-family: 'Gill Sans';
-    font-size: 10pt
+    font-size: 10pt;
+    font-style: italic
 }
