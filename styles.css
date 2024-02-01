@@ -6,4 +6,10 @@ body {
     margin-bottom: 30pt;
     margin-right: 30pt;
     margin-left: 30pt;
+
+}
+
+h1 {color: magenta;
+    font: Serif;
+    font-size: 50pt;
 }
