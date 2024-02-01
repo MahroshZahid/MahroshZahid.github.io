@@ -55,16 +55,6 @@ a:visited {
 }
 
 table {
-    display: table;
-    width: 100%;
-}
-
-table .row {
     display: table-row;
-}
-
-table .row div {
-    display: table-cell;
-    border: 1px solid #000;
-    padding: 5px;
+    width: 100%;
 }
