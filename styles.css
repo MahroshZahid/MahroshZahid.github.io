@@ -60,7 +60,9 @@ table {
     border-collapse: collapse;
 }
 
-
+.row {
+    display: table-row;
+}
 
 .link {
     display: table-cell;
