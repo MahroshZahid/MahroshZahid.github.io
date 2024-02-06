@@ -54,6 +54,24 @@ a:visited {
     text-decoration: none;
 }
 
-td, th, table {
-    border: 1 px solid; color: black;
+table {
+    display: table;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.row {
+    display: table-row;
+}
+
+.link {
+    display: table-cell;
+    border: 1px solid #000;
+    padding: 10px;
+}
+
+.description {
+    display: table-cell;
+    border: 1px solid #000;
+    padding: 10px;
 }
