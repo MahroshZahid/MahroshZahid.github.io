@@ -55,5 +55,5 @@ a:visited {
 }
 
 td, th, tr {
-    border: 1 px solid black;
+    border: 1 px solid; color: black;
 }
