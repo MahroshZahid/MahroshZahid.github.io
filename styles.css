@@ -54,6 +54,6 @@ a:visited {
     text-decoration: none;
 }
 
-td, tr, table {
+td, th, table {
     border: 1 px solid; color: black;
 }
