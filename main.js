@@ -7,3 +7,10 @@ function showMessage() {
 }
 
 showMessage()
+function changeText(word, iteration){
+    for (var i=0; i<iteration;i++){
+    alert("Hello" + word + "!");
+    }
+}
+
+changeText("Canada", 3)
