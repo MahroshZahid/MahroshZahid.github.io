@@ -14,3 +14,5 @@ function changeText(word, iteration){
 }
 
 changeText("Canada", 3)
+
+var maindiv = document.getElementById("main");
