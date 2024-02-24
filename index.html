@@ -7,20 +7,30 @@
   <title>Who is Mahrosh?</title>
 </head>
 <body>
-  <div class="table">
-    <div class="row"> 
-      <div class="link"><a href="https://www.linkedin.com/in/mahroshzahid/">LinkedIn</a></div>
-      <div class="description">LinkedIn Profile Page</div>
-    </div>
-    <div class="row">
-      <div class="link"><a href="https://github.com/MahroshZahid">GitHub</a></div>
-      <div class="description">GitHub Profile Page</div>
-    </div>
-  </div>
 
   <h1>Mahrosh Zahid</h1>
-  <p>Hi, I'm Mahrosh Zahid, and this is my first HTML5 website. <br> I love gaming, coding, and food! <br> My favorite food is the traditional South Asian dish named "Biryani"</p>
-  <hr>
+  
+<div id="container">
+ <nav>
+  <div class="nav-item"><a href="index.html">Home</a></div>
+  <div class="nav-item dropdown">
+    <button class="dropbtn" onmouseover="toggleDropdown('aboutDropdown')" onmouseout="hideDropdown('aboutDropdown')">About</button>
+      <div class="dropdown-content" id="aboutDropdown" onmouseover="showDropdown('aboutDropdown')" onmouseout="hideDropdown('aboutDropdown')">
+      <a href="personalstory.html">Personal Story</a>
+      <a href="interests.html">Interests</a>
+    </div>
+  </div>
+  <div class="nav-item dropdown">
+    <button class="dropbtn" onmouseover="toggleDropdown('cvDropdown')" onmouseout="hideDropdown('cvDropdown')">CV</button>    
+    <div class="dropdown-content" id="cvDropdown" onmouseover="showDropdown('cvDropdown')" onmouseout="hideDropdown('cvDropdown')">
+      <a href="#">Professional Experience</a>
+      <a href="#">Extracurriculars</a>
+      <a href="#">Projects</a>
+    </div>
+  </div>
+  <div class="nav-item"><a href="#">Contact</a></div>
+ </nav>
+</div>
 
   <h2>Education History</h2>
   <dl>
@@ -37,7 +47,7 @@
   <ol>
     <li>
       ITM780 - Web Design and Management
-      <p>Description: This course imparts fundamental knowledge and skills in developing and managing effective business websites. Utilizing HTML5 and CSS3, the current standard web page languages, to create a powerful online presence.</p>
+      <p>Description: This course imparts fundamental knowledge and skills in developing and managing effective business websites. Utilizing HTML5, CSS,, the current standard web page languages, to create a powerful online presence.</p>
       <p><em>This course is my favorite</em> as it offers fundamental knowledge and skills in developing and managing effective business websites. I'm excited about expanding my coding knowledge, and I find web development fascinating.</p>
     </li>
     <li>
@@ -72,5 +82,25 @@
     </li>
   </ul>
   <hr>
+  <div id="greeting"></div>
+  
+  <br>
+  <div class="table">
+    <div class="row"> 
+      <div class="link"><a href="https://www.linkedin.com/in/mahroshzahid/">LinkedIn</a></div>
+      <div class="description">LinkedIn Profile Page</div>
+    </div>
+    <div class="row">
+      <div class="link"><a href="https://github.com/MahroshZahid">GitHub</a></div>
+      <div class="description">GitHub Profile Page</div>
+    </div>
+  </div>
+  <br>
+
+  <hr>
+  <br>
+  <button onclick="myFunction()">Enter Name</button>
+  <br>
+
 </body>
 </html>
