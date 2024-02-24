@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<script src = "main.js"> </script>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <title>Who is Mahrosh?</title>
+</head>
+<body>
+
+  <h1>Mahrosh Zahid</h1>
+  
+<div id="container">
+ <nav>
+  <div class="nav-item"><a href="index.html">Home</a></div>
+  <div class="nav-item dropdown">
+    <button class="dropbtn" onclick="toggleDropdown('aboutDropdown')">About</button>
+    <div class="dropdown-content" id="aboutDropdown">
+      <a href="personalstory.html">Personal Story</a>
+      <a href="interests.html">Interests</a>
+    </div>
+  </div>
+  <div class="nav-item dropdown">
+    <button class="dropbtn" onclick="toggleDropdown('cvDropdown')">CV</button>
+    <div class="dropdown-content" id="cvDropdown">
+      <a href="#">Professional Experience</a>
+      <a href="#">Extracurriculars</a>
+      <a href="#">Projects</a>
+    </div>
+  </div>
+  <div class="nav-item"><a href="#">Contact</a></div>
+ </nav>
+</div>
+
+<p>Hi, I'm Mahrosh Zahid, and this is my first HTML5 website. <br> I love gaming, coding, and food! <br> My favorite food is the traditional South Asian dish named "Biryani"</p>
+<img src="images/me.jpg" height="450" width ="380" id="image" onclick="ChangeImageSize()">
+<br>
+<hr>
+
+</body>
+</html>
