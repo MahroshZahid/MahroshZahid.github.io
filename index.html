@@ -9,12 +9,12 @@
 <body>
 
   <h1>Mahrosh Zahid</h1>
-  
+
 <div id="container">
  <nav>
   <div class="nav-item"><a href="index.html">Home</a></div>
   <div class="nav-item dropdown">
-    <button class="dropbtn" onmouseover="toggleDropdown('aboutDropdown')" onmouseout="hideDropdown('aboutDropdown')">About</button>
+    <button class="dropbtn" onmouseover="showDropdown('aboutDropdown')" onmouseout="hideDropdown('aboutDropdown')">About</button>
       <div class="dropdown-content" id="aboutDropdown" onmouseover="showDropdown('aboutDropdown')" onmouseout="hideDropdown('aboutDropdown')">
       <a href="personalstory.html">Personal Story</a>
       <a href="interests.html">Interests</a>
@@ -31,6 +31,9 @@
   <div class="nav-item"><a href="#">Contact</a></div>
  </nav>
 </div>
+
+<p>Hi, I'm Mahrosh Zahid, and this is my first HTML5 website. <br> I love gaming, coding, and food! <br> My favorite food is the traditional South Asian dish named "Biryani"</p>
+<img src="images/me.jpg" height="450" width ="380" id="image" onclick="ChangeImageSize()">
 
   <h2>Education History</h2>
   <dl>
@@ -81,9 +84,7 @@
       <p>Tableau, PowerBi</p>
     </li>
   </ul>
-  <hr>
-  <div id="greeting"></div>
-  
+  <hr>  
   <br>
   <div class="table">
     <div class="row"> 
@@ -96,8 +97,9 @@
     </div>
   </div>
   <br>
-
   <hr>
+
+  <div id="greeting"></div>
   <br>
   <button onclick="myFunction()">Enter Name</button>
   <br>
