@@ -14,12 +14,9 @@ function ChangeImageSize(){
 // Function to toggle dropdown visibility
 function toggleDropdown(dropdownId) {
     var dropdown = document.getElementById(dropdownId);
-    if (dropdown.style.display === 'block') {
-        dropdown.style.display = 'none';
-    } else {
-        dropdown.style.display = 'block';
-    }
-}
+    dropdown.classList.toggle('show'); // Toggle the 'show' class
+  }
+  
 
 // Function to show dropdown
 function showDropdown(dropdownId) {
