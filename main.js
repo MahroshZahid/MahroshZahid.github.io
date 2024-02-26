@@ -11,20 +11,19 @@ function ChangeImageSize(){
     img.style.width = "400px";
 }
 
-// Function to toggle dropdown visibility
 function toggleDropdown(dropdownId) {
     var dropdown = document.getElementById(dropdownId);
     dropdown.classList.toggle('show'); // Toggle the 'show' class
   }
   
 
-// Function to show dropdown
+// show dropdown
 function showDropdown(dropdownId) {
     var dropdown = document.getElementById(dropdownId);
     dropdown.style.display = 'block';
 }
 
-// Function to hide dropdown
+// hide dropdown
 function hideDropdown(dropdownId) {
     var dropdown = document.getElementById(dropdownId);
     dropdown.style.display = 'none';
