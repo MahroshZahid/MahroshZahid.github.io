@@ -10,11 +10,6 @@ function ChangeImageSize(){
     img.style.height = "500px";
     img.style.width = "400px";
 }
-
-function toggleDropdown(dropdownId) {
-    var dropdown = document.getElementById(dropdownId);
-    dropdown.classList.toggle('show'); // Toggle the 'show' class
-  }
   
 
 // show dropdown
