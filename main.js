@@ -10,7 +10,6 @@ function ChangeImageSize(){
     img.style.height = "500px";
     img.style.width = "400px";
 }
-  
 
 // show dropdown
 function showDropdown(dropdownId) {
