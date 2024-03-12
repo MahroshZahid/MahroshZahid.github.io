@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<script src = "main.js"> </script>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <title>Who is Mahrosh?</title>
+</head>
+<body>
+
+  <h1>Mahrosh Zahid</h1>
+  
+<div id="container">
+    <nav>
+     <div class="nav-item"><a href="index.html">Home</a></div>
+     <div class="nav-item dropdown">
+       <button class="dropbtn" onmouseover="showDropdown('aboutDropdown')" onmouseout="hideDropdown('aboutDropdown')">About</button>
+         <div class="dropdown-content" id="aboutDropdown" onmouseover="showDropdown('aboutDropdown')" onmouseout="hideDropdown('aboutDropdown')">
+         <a href="personalstory.html">Personal Story</a>
+         <a href="interests.html">Interests</a>
+       </div>
+     </div>
+     <div class="nav-item dropdown">
+       <button class="dropbtn" onmouseover="showDropdown('cvDropdown')" onmouseout="hideDropdown('cvDropdown')">CV</button>    
+       <div class="dropdown-content" id="cvDropdown" onmouseover="showDropdown('cvDropdown')" onmouseout="hideDropdown('cvDropdown')">
+         <a href="#">Professional Experience</a>
+         <a href="#">Extracurriculars</a>
+         <a href="#">Projects</a>
+       </div>
+     </div>
+     <div class="nav-item"><a href="contact.html">Contact</a></div>
+    </nav>
+   </div>
+
+   <h3>Please fill out information below<h3>
+
+ <form id="myform">
+    <p>
+        <label for="Name">Name</label> <br>
+        <input id="name" type="text">
+    </p>
+    <p>
+        <label for="Email">Email</label><br>
+        <input id="email" type="text">
+    </p>
+    <p>
+        <label for="Phone">Phone</label><br>
+        <input id="phone" type="tel">
+        <select id="phone_type">
+            <option value="home">Home</option>
+            <option value="mobile">Mobile</option>
+            <option value ="fax">Fax</option>
+        </select>
+    </p>
+  <p>
+      <label for="gender_title">Gender:</label><br>
+      <input type="radio" name="gender" value="Male">
+      <label for="gender">Male</label>
+      <input type="radio" name="gender" value="Female">
+      <label for="gender">Female</label>
+      <input type="radio" name="gender" value="Prefer not to say">
+      <label for="gender">Prefer not to say</label>
+  </p>
+  
+    <p>
+        <label for="industry_title">Industry of Work:</label><br>
+        <input type="checkbox" name="industry" value="Technology">
+        <label for="industry">Technology</label><br>
+        <input type="checkbox" name="industry" value="Finance">
+        <label for="industry">Finance</label><br>
+        <input type="checkbox" name="industry" value="Healthcare">
+        <label for="industry">Healthcare</label><br>
+        <input type="checkbox" name="industry" value="Marketing">
+        <label for="industry">Marketing</label><br>
+        <input type="checkbox" name="industry" value="Other">
+        <label for="industry">Other</label><br>
+        
+    </p>
+
+    <p>
+        <label for="Message">Message</label><br>
+        <textarea id="message" name="message" rows="5" cols="50" placeholder="Enter your message"></textarea>
+    </p>
+    <p>
+      <button type="button" id="button" value="submit" onclick="submitForm()">Submit</button>
+      <input type="reset">
+    </p>
+    </form>
+    
+
+
+</body>
+
+
+</html>
