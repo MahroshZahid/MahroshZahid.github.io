@@ -28,7 +28,7 @@ h3 {
     font-style: italic;
 }
 
-p {
+body {
     color: #38052A;
     font-family: Arial, sans-serif;
     font-size: 10pt;
@@ -209,3 +209,23 @@ label[for="industry"] {
 }
 
 
+.container, .buttons{
+    margin: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.btn {
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+
+.btn:nth-child(2)
+{
+    font-size: 1.5em;
+}
+
+.btn:nth-child(3){
+    font-size: 2em;
+}
