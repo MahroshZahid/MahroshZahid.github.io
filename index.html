@@ -32,8 +32,23 @@
  </nav>
 </div>
 
-<p>Hi, I'm Mahrosh Zahid, and this is my first HTML5 website. <br> I love gaming, coding, and food! <br> My favorite food is the traditional South Asian dish named "Biryani"</p>
-<img src="images/me.jpg" height="450" width ="380" id="image" onclick="ChangeImageSize()">
+<br>
+<button onclick="toggleColorblindMode()">Toggle High Contrast Mode</button>
+<!-- added text increase widget to provide users with the flexibility to adjust font sizes according to their preferences, ensuring improved accessibility. -->
+
+<div class="container">
+<div class="buttons">
+  <span class="btn" onclick="document.body.style.fontSize = '' " >A</span>
+  <span class="btn" onclick="document.body.style.fontSize = '1.5em' ">A</span>
+  <span class="btn" onclick="document.body.style.fontSize = '2em' ">A</span>
+</div>
+</div>
+<!-- added text increase widget to provide users with the flexibility to adjust font sizes according to their preferences, ensuring improved accessibility. -->
+
+
+<p id="text">Hi, I'm Mahrosh Zahid, and this is my first HTML5 website. <br> I love gaming, coding, and food! <br> My favorite food is the traditional South Asian dish named "Biryani"</p>
+<img src="images/me.jpg" alt ="Mahrosh sitting at a park in her graduation gown" height="450" width ="380" id="image" onclick="ChangeImageSize()">
+<!--alt attribute provides alt information for an image in case viewer is unable to view image due to a visual impairment for example-->
 
   <h2>Education History</h2>
   <dl>
@@ -43,9 +58,8 @@
     <dd>2017-2021</dd>
   </dl>
   <hr>
-
   <h3>Program/Courses</h3>
-  <p>The Business Technology Management program at Toronto Metropolitan University provides a dynamic blend of business and technology education. Students gain strategic insights and practical skills, preparing them to excel in leveraging technology for business success.</p>
+  <p >The Business Technology Management program at Toronto Metropolitan University provides a dynamic blend of business and technology education. Students gain strategic insights and practical skills, preparing them to excel in leveraging technology for business success.</p>
   <p>My Top 3 Courses</p>
   <ol>
     <li>
@@ -59,7 +73,7 @@
     </li>
     <li>
       ITM752 - Data Visualization
-      <p>Description: The course introduces best practices to visualize common data types, charts, and statistical phenomena (e.g., trends, distributions, missing data).</p>
+      <p >Description: The course introduces best practices to visualize common data types, charts, and statistical phenomena (e.g., trends, distributions, missing data).</p>
     </li>
   </ol>
   <hr>
