@@ -56,3 +56,8 @@ function submitForm() {
     var gen = localStorage.setItem("gender", gender);
     var work_industry = localStorage.setItem("industry", industry)
 }
+
+function toggleColorblindMode() {
+    document.body.style.backgroundColor = "#000";
+    document.body.style.color = "#fff";
+}
